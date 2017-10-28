@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         points += countdown*1000;
         round++;
         initRound();
-    }
+    }    
 
     private void showToast(int stringResId) {
         Toast toast = new Toast(this);
