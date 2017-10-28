@@ -5,9 +5,11 @@
         parent="android:style/Theme.NoTitleBar.Fullscreen">
         <item name="android:textSize" >@dimen/text_size</item>>
         <!-- Customize your theme here. -->
+        <item name="android:shadowColor">@color/shadow</item>
+        <item name="android:shadowRadius">5</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+e
 </resources>
